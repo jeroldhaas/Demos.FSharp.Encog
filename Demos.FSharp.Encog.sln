@@ -33,7 +33,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "content", "content", "{8E6D
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{ED8079DD-2B06-4030-9F0F-DC548F98E1C4}"
 EndProject
-Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "FSharp.ProjectTemplate.Tests", "Demos.FSharp.Encog.Library\tests\FSharp.ProjectTemplate.Tests\FSharp.ProjectTemplate.Tests.fsproj", "{E789C72A-5CFD-436B-8EF1-61AA2852A89F}"
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Demos.FSharp.Encog.Tests", "Demos.FSharp.Encog.Library\tests\FSharp.ProjectTemplate.Tests\Demos.FSharp.Encog.Tests.fsproj", "{E789C72A-5CFD-436B-8EF1-61AA2852A89F}"
 EndProject
 Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Demos.FSharp.Encog.Console", "Demos.FSharp.Encog.Console\Demos.FSharp.Encog.Console.fsproj", "{A78D61AC-595B-4B0C-9DE8-BAFC083E619F}"
 EndProject
