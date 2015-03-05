@@ -1,0 +1,6 @@
+NUnit
+NUnit.Runners
+NUnit.CommandLine
+FsCheck
+FsCheck.Nunit
+Autofixture.Idioms.FsCheck
