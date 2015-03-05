@@ -1,17 +1,19 @@
 source https://nuget.org/api/v2
 
-nuget FSharp.Formatting
-nuget NUnit 
+nuget FSCheck.NUnit
+nuget FSharp.Charting
+nuget NUnit
 nuget NUnit.Runners
 nuget FSCheck
-
+nuget FSharp.Formatting
 nuget FAKE
+nuget NUnitTestAdapter
 nuget SourceLink.Fake
-
 nuget ExtCore
 nuget FSharpx
 nuget FSharp.Data
 nuget FSharpPlus
-
+nuget Unquote
+nuget encog-dotnet-core
 
 github fsharp/FAKE modules/Octokit/Octokit.fsx

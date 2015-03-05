@@ -4,11 +4,11 @@ owners
 authors 
     ##Author##
 projectUrl
-    http://github.com/##GitHome##/FSharp.ProjectScaffold
+    http://github.com/JeroldHaas/Demos.FSharp.Encog
 iconUrl
-    https://raw.githubusercontent.com/##GitHome##/FSharp.ProjectScaffold/master/docs/files/img/logo.png
+    https://raw.githubusercontent.com/JeroldHaas/Demos.FSharp.Encog/master/docs/files/img/logo.png
 licenseUrl
-    http://github.com/##GitHome##/FSharp.ProjectScaffold/blob/master/LICENSE.txt
+    http://github.com/JeroldHaas/Demos.FSharp.Encog/blob/master/LICENSE.txt
 requireLicenseAcceptance
     false
 copyright

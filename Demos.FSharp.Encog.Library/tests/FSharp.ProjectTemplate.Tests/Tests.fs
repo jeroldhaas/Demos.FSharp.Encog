@@ -1,7 +1,12 @@
-﻿module FSharp.ProjectScaffold.Tests
+﻿module Demos.FSharp.Encog.Tests
 
-open FSharp.ProjectTemplate
+open Demos.FSharp.Encog
 open NUnit.Framework
+//open NUnit.Runners
+open FsCheck
+open FsCheck.NUnit
+open Swensen.Unquote
+
 
 [<Test>]
 let ``hello returns 42`` () =

@@ -1,2 +1,6 @@
 NUnit
 NUnit.Runners
+NUnitTestAdapter
+FsCheck
+FsCheck.Nunit
+Unquote

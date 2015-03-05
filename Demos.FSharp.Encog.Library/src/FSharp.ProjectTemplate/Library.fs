@@ -1,4 +1,10 @@
-﻿namespace FSharp.ProjectTemplate
+﻿namespace Demos.FSharp.Encog
+
+open Encog
+open ExtCore
+open FSharpPlus
+open FSharpx
+open FsControl
 
 /// Documentation for my library
 ///
