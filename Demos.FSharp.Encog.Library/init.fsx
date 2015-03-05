@@ -88,8 +88,8 @@ vars.["##GitName##"]     <- promptFor "Github Project Name (leave blank to use P
 
 //Basic settings
 
-let solutionTemplateName = "FSharp.ProjectScaffold"
-let projectTemplateName = "FSharp.ProjectTemplate"
+let solutionTemplateName = "Demos.FSharp.Encog"
+let projectTemplateName = "Demos.FSharp.Encog.Library"
 let oldProjectGuid = "7E90D6CE-A10B-4858-A5BC-41DF7250CBCA"
 let projectGuid = Guid.NewGuid().ToString()
 let oldTestProjectGuid = "E789C72A-5CFD-436B-8EF1-61AA2852A89F"

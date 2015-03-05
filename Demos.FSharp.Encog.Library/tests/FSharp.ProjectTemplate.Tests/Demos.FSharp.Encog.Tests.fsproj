@@ -7,11 +7,11 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>e789c72a-5cfd-436b-8ef1-61aa2852a89f</ProjectGuid>
     <OutputType>Library</OutputType>
-    <RootNamespace>FSharp.ProjectTemplate.Tests</RootNamespace>
-    <AssemblyName>FSharp.ProjectTemplate.Tests</AssemblyName>
+    <RootNamespace>Demos.FSharp.Encog</RootNamespace>
+    <AssemblyName>Demos.FSharp.Encog</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <TargetFSharpCoreVersion>4.3.0.0</TargetFSharpCoreVersion>
-    <Name>Demos.FSharp.Encog.Tests</Name>
+    <Name>Demos.FSharp.Encog</Name>
     <TargetFrameworkProfile />
     <SolutionDir Condition="$(SolutionDir) == '' Or $(SolutionDir) == '*Undefined*'">..\..\</SolutionDir>
   </PropertyGroup>
@@ -23,7 +23,7 @@
     <OutputPath>bin\Debug\</OutputPath>
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <WarningLevel>3</WarningLevel>
-    <DocumentationFile>bin\Debug\fsharp_project_scaffold_tests.XML</DocumentationFile>
+    <DocumentationFile>bin\Debug\Demos.FSharp.Encog.XML</DocumentationFile>
     <StartAction>Project</StartAction>
     <StartProgram>
     </StartProgram>
@@ -37,7 +37,7 @@
     <OutputPath>bin\Release\</OutputPath>
     <DefineConstants>TRACE</DefineConstants>
     <WarningLevel>3</WarningLevel>
-    <DocumentationFile>bin\Release\FSharp.ProjectTemplate.Tests.xml</DocumentationFile>
+    <DocumentationFile>bin\Release\Demos.FSharp.Encog.xml</DocumentationFile>
   </PropertyGroup>
   <PropertyGroup>
     <MinimumVisualStudioVersion Condition="'$(MinimumVisualStudioVersion)' == ''">11</MinimumVisualStudioVersion>
@@ -81,7 +81,7 @@
   -->
   <Import Project="..\..\.paket\paket.targets" />
   <ItemGroup>
-    <ProjectReference Include="..\..\src\FSharp.ProjectTemplate\Demos.FSharp.Encog.fsproj">
+    <ProjectReference Include="..\..\src\Demos.Fsharp.Encog.Library\Demos.FSharp.Encog.Library.fsproj">
       <Name>Demos.FSharp.Encog</Name>
       <Project>{7e90d6ce-a10b-4858-a5bc-41df7250cbca}</Project>
       <Private>True</Private>
