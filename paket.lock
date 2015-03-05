@@ -19,6 +19,7 @@ NUGET
       NUnit (>= 2.6.3)
       NUnit.Runners (>= 2.6.3)
     FsControl (1.0.13)
+    FSharp.Charting (0.90.9)
     FSharp.Compiler.Service (0.0.86)
     FSharp.Core (3.1.2.1)
     FSharp.Data (2.1.1)
@@ -43,9 +44,11 @@ NUGET
     NuGet.CommandLine (2.8.3)
     NUnit (2.6.4)
     NUnit.Runners (2.6.4)
+    NUnitTestAdapter (1.2)
     Octokit (0.7.2)
       Microsoft.Net.Http
     SourceLink.Fake (0.4.2)
+    Unquote (2.2.2)
     Zlib.Portable (1.10.0) - framework: portable-net40+sl50+wp80+win80
 GITHUB
   remote: fsharp/FAKE

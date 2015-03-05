@@ -1,38 +1,18 @@
-
-Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2012
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".paket", ".paket", "{63297B98-5CED-492C-A5B7-A5B4F73CF142}"
- ProjectSection(SolutionItems) = preProject
-		paket.dependencies = paket.dependencies
-		paket.lock = paket.lock
-	EndProjectSection
-EndProject
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "docs", "docs", "{A6A6AF7D-D6E3-442D-9B1E-58CC91879BE1}"
-EndProject
-Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Demos.FSharp.Encog", "src\Demos.FSharp.Encog\Demos.FSharp.Encog.fsproj", "{7E90D6CE-A10B-4858-A5BC-41DF7250CBCA}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "project", "project", "{BF60BC93-E09B-4E5F-9D85-95A519479D54}"
-	ProjectSection(SolutionItems) = preProject
-		build.fsx = build.fsx
-		nuget\Demos.FSharp.Encog.nuspec = nuget\Demos.FSharp.Encog.nuspec
-		README.md = README.md
-		RELEASE_NOTES.md = RELEASE_NOTES.md
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.31101.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".paket", ".paket", "{63297B98-5CED-492C-A5B7-A5B4F73CF142}"
 	ProjectSection(SolutionItems) = preProject
-		Demos.FSharp.Encog.Library\paket.dependencies = Demos.FSharp.Encog.Library\paket.dependencies
-		Demos.FSharp.Encog.Library\paket.lock = Demos.FSharp.Encog.Library\paket.lock
+		paket.dependencies = paket.dependencies
+		paket.lock = paket.lock
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "docs", "docs", "{A6A6AF7D-D6E3-442D-9B1E-58CC91879BE1}"
 EndProject
-Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Demos.FSharp.Encog", "Demos.FSharp.Encog.Library\src\FSharp.ProjectTemplate\Demos.FSharp.Encog.fsproj", "{7E90D6CE-A10B-4858-A5BC-41DF7250CBCA}"
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Demos.FSharp.Encog", "src\Demos.FSharp.Encog\Demos.FSharp.Encog.fsproj", "{7E90D6CE-A10B-4858-A5BC-41DF7250CBCA}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "project", "project", "{BF60BC93-E09B-4E5F-9D85-95A519479D54}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "project", "project", "{8F7EF507-54F4-4937-8329-C14D99AA38D8}"
 	ProjectSection(SolutionItems) = preProject
 		Demos.FSharp.Encog.Library\build.fsx = Demos.FSharp.Encog.Library\build.fsx
 		Demos.FSharp.Encog.Library\README.md = Demos.FSharp.Encog.Library\README.md
@@ -43,22 +23,17 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tools", "tools", "{83F16175
 	ProjectSection(SolutionItems) = preProject
 		docs\tools\generate.fsx = docs\tools\generate.fsx
 		docs\tools\templates\template.cshtml = docs\tools\templates\template.cshtml
-		Demos.FSharp.Encog.Library\docs\tools\generate.fsx = Demos.FSharp.Encog.Library\docs\tools\generate.fsx
-		Demos.FSharp.Encog.Library\docs\tools\templates\template.cshtml = Demos.FSharp.Encog.Library\docs\tools\templates\template.cshtml
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "content", "content", "{8E6D5255-776D-4B61-85F9-73C37AA1FB9A}"
 	ProjectSection(SolutionItems) = preProject
 		docs\content\index.fsx = docs\content\index.fsx
 		docs\content\tutorial.fsx = docs\content\tutorial.fsx
-		Demos.FSharp.Encog.Library\docs\content\index.fsx = Demos.FSharp.Encog.Library\docs\content\index.fsx
-		Demos.FSharp.Encog.Library\docs\content\tutorial.fsx = Demos.FSharp.Encog.Library\docs\content\tutorial.fsx
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{ED8079DD-2B06-4030-9F0F-DC548F98E1C4}"
 EndProject
 Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Demos.FSharp.Encog.Tests", "tests\Demos.FSharp.Encog.Tests\Demos.FSharp.Encog.Tests.fsproj", "{E789C72A-5CFD-436B-8EF1-61AA2852A89F}"
-Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Demos.FSharp.Encog.Tests", "Demos.FSharp.Encog.Library\tests\FSharp.ProjectTemplate.Tests\Demos.FSharp.Encog.Tests.fsproj", "{E789C72A-5CFD-436B-8EF1-61AA2852A89F}"
 EndProject
 Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Demos.FSharp.Encog.Console", "Demos.FSharp.Encog.Console\Demos.FSharp.Encog.Console.fsproj", "{A78D61AC-595B-4B0C-9DE8-BAFC083E619F}"
 EndProject
