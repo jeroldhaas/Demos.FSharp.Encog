@@ -1,6 +1,5 @@
 NUnit
 NUnit.Runners
-NUnit.CommandLine
 NUnitTestAdapter
 FsCheck
 FsCheck.Nunit
